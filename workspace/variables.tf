@@ -1,5 +1,5 @@
 variable "ami" {
-  type = "map"
+  type = map
   default = {
     "ProjectA" = "ami-0ecb62995f68bb549",
     "ProjectB" = "ami-0fa3fe0fa7920f68e"
