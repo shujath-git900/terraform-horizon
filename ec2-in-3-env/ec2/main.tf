@@ -9,6 +9,7 @@ terraform {
 resource "aws_instance" "ec2-instance" {
   ami           = "ami-0fa3fe0fa7920f68e"
   instance_type = "t3.micro"
+  key_name = "jenkins_key"
   tags = {
     Name = var.name
   }
